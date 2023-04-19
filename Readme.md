@@ -21,3 +21,12 @@
 # 데이터 소개
 
 - kaggle 사이트에서 business review 데이터에서 미국기업 yelp를 사용한 데이터를 사용하였다. (https://www.kaggle.com/code/sudhirnl7/basic-exploration-of-business-review-at-yelp-com#Review)
+
+# 데이터
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+plt.figure(figsize=(12,4))
+ax = sns.countplot(business['stars'])
+plt.title('Distribution of rating');
