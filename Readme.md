@@ -30,9 +30,10 @@
 <img src="https://www.kaggleusercontent.com/kf/2594553/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..gp4FvRrugxdz-OahmDcbgA.WxX51E0OnVK7udFMbQNDKnaPMWtok5_YREg_MJ6koxjf1YMXBwuflT0CxHka7pPgUlrDBpuaCRPlqckmkX33gpEAHGLbntBxztyRc7Da94azy4RAt-lXZrHeuYxNq5ejRvBruBbvvagL7VjBxQgCmZnQFWx1NyyF49VIHV14YI7s0YanYvsnIkRdiLSzM3GZI42AgBHyvgWt562TXb7l478rCMg-CeVC9oMDf2gj3rY1OGX3s6R1um4tFAFnKHVQ4cDx74UBtkziumKDBWa9ax49uARWez0a-eXjyNtPf18HRK25weonO-cO5Z6RbNt3tTryCG10YaQtgzN3OtD5uQdr3fFpVotQB7qmUjU3wl9CdaWVhIgcEi45HI2quXeWUMtaauwpilX0Z3Dr2mPUV2fyKZpbdHxOOM2rhSPkQGqSd9zA8QmVOpO4jXiFGJhu23po3LakBfCMdTQFyr66eTIjtjW0u_d0hkfpcRR5sFts4d2ibOa3BUZGidw-RKPbx8EgP-EIJIQkL3WU8uvlMI5qEfkBX9GYrMguCbjFlZv9lwJDYZovW9pPPr4U1_x47Lu_U86uoYRpoAuT2zPnmsIezSyBMFBvaJSOWeqE0UP5SCGzHzCNi-LZVG8RDEiJjVhs3q-0CJLgurQwsGFvDVxLzgMBKI52A9CrTxYT0WhsTaNwjFVom-s_ppDBFdXabdilQiZZlfSJ7hf5Wis2NQ.0rnRMB18uhU2QbsHQhlY8g/__results___files/__results___11_1.png"></a>
 - 우리가 흔히 아는 기업일 수록 평가가 많다는걸 알 수 있다.
 
-review_id	user_id	business_id	stars	date	text	useful	funny	cool
-0	vkVSCC7xljjrAI4UGfnKEQ	bv2nCi5Qv5vroFiqKGopiw	AEx2SYEUJmTxVVB18LlCwA	5	2016-05-28	Super simple place but amazing nonetheless. It...	0	0	0
-1	n6QzIUObkYshz4dz2QRJTw	bv2nCi5Qv5vroFiqKGopiw	VR6GpWIda3SfvPC-lg9H3w	5	2016-05-28	Small unassuming place that changes their menu...	0	0	0
-2	MV3CcKScW05u5LVfF6ok0g	bv2nCi5Qv5vroFiqKGopiw	CKC0-MOWMqoeWf6s-szl8g	5	2016-05-28	Lester's is located in a beautiful neighborhoo...	0	0	0
-3	IXvOzsEMYtiJI0CARmj77Q	bv2nCi5Qv5vroFiqKGopiw	ACFtxLv8pGrrxMm6EgjreA	4	2016-05-28	Love coming here. Yes the place always needs t...	0	0	0
-4	L_9BTb55X0GDtThi6GlZ6w	bv2nCi5Qv5vroFiqKGopiw	s2I_Ni76bjJNK9yG60iD-Q	4	2016-05-28	Had their chocolate almond croissant and it wa...	0	0	0
+|-|review_ID|user_id	|business_id|stars|date|text|useful|
+|-|--------|--------|--------|------|------|----|-----------|
+|0|	vkVSCC7xljjrAI4UGfnKEQ|bv2nCi5Qv5vroFiqKGopiw|AEx2SYEUJmTxVVB18LlCwA|5|2016-05-28|Super simple place but amazing nonetheless. It...|0|
+|1|n6QzIUObkYshz4dz2QRJTw|bv2nCi5Qv5vroFiqKGopiw|VR6GpWIda3SfvPC-lg9H3w|5|2016-05-28|Small unassuming place that changes their menu...|0|
+|2|MV3CcKScW05u5LVfF6ok0g	|bv2nCi5Qv5vroFiqKGopiw|CKC0-MOWMqoeWf6s-szl8g|5|2016-05-28|Lester's is located in a beautiful neighborhoo...|0|
+|3|IXvOzsEMYtiJI0CARmj77Q|bv2nCi5Qv5vroFiqKGopiw|ACFtxLv8pGrrxMm6EgjreA|4|2016-05-28|Love coming here. Yes the place always needs t...|0|
+|4|L_9BTb55X0GDtThi6GlZ6w|bv2nCi5Qv5vroFiqKGopiw|s2I_Ni76bjJNK9yG60iD-Q|4|2016-05-28|Had their chocolate almond croissant and it wa...|0|
