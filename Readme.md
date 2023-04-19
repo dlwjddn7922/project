@@ -44,6 +44,5 @@
 |3|IXvOzsEMYtiJI0CARmj77Q|bv2nCi5Qv5vroFiqKGopiw|ACFtxLv8pGrrxMm6EgjreA|4|2016-05-28|Love coming here. Yes the place always needs t...|0|
 |4|L_9BTb55X0GDtThi6GlZ6w|bv2nCi5Qv5vroFiqKGopiw|s2I_Ni76bjJNK9yG60iD-Q|4|2016-05-28|Had their chocolate almond croissant and it wa...|0|
 
-(review.xlxs)
 # 결론
 리뷰의 중요성은 시간이 지날수록 높아지고 있고, 리뷰가 좋은 기업일 수록 가치가 높은 기업으로 나타났다.
