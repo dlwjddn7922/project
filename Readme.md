@@ -37,6 +37,7 @@
 # 리뷰 데이터
 
 |Yelp URL|Rating|Date|Review text|
+|---|---|---|---|
 |레스토랑 주소URL|평점|날짜|리뷰 글|
 
 # 결론
