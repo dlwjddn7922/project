@@ -21,7 +21,7 @@
 # 데이터 소개
 
 - kaggle 사이트에서 business review 데이터에서 미국기업 yelp를 사용한 데이터를 사용하였다. (https://www.kaggle.com/code/sudhirnl7/basic-exploration-of-business-review-at-yelp-com#Review)
-- kaggle 사이트에서 Restaurant Customer Reviews 데이터를 사용하였다 (https://www.kaggle.com/datasets/vigneshwarsofficial/reviews)
+- kaggle 사이트에서 yelp business 데이터를 사용하였다 (https://www.kaggle.com/datasets/darshank2019/business)
 
 # 데이터
 
