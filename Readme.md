@@ -41,7 +41,12 @@
 |---|---|---|---|
 |레스토랑 주소URL|평점|날짜|리뷰 글|
 
-<img scr="https://github.com/dlwjddn7922/project/blob/main/yelp.PNG"></a>
+<img src="https://user-images.githubusercontent.com/79899654/235818583-6205bca6-7e54-4ce7-9463-6a519acc1168.PNG"></a>
+
+# 평점 데이터
+
+<img src="https://user-images.githubusercontent.com/79899654/235818585-7fc6c992-2f47-442a-b6c2-8929c70b9831.PNG"></a>
+-평점 5점이 50%이상이걸 알 수 있다.
 
 # 결론
 리뷰의 중요성은 시간이 지날수록 높아지고 있고, 리뷰가 좋은 기업일 수록 가치가 높은 기업으로 나타났다.
