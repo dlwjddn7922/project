@@ -15,12 +15,14 @@
 
 # 맛집 리뷰의 영향력
 
-<img scr="https://user-images.githubusercontent.com/79899654/235819995-7519ec82-029d-43de-ba73-46417269f175.PNG"></a>
- 
- 맛집리뷰 이용경험을 조사해본 결과 리뷰서비스의 신뢰도는 62%이상이 매우 신뢰한다고 나타났다.
+<img src="https://user-images.githubusercontent.com/79899654/235819995-7519ec82-029d-43de-ba73-46417269f175.PNG">
+맛집리뷰 이용경험을 조사해본 결과 리뷰서비스의 신뢰도는 62%이상이 매우 신뢰한다고 나타났다.
+
 - 맛집리뷰가 좋지 않은경우 50%이상이 리뷰가 좋지 않으면 식단에 방문하지 않겠다고 응답했다.
+
 <출처:http://www.hkrecruit.co.kr/news/articleView.html?idxno=23798>
 - 19-49세 성인남여 1,200명 중 86.9%가 ‘소비자 리뷰는 필요하다’고 답했고, 전체 응답자의 78.6%가 제품 구매 시 항상 소비자 리뷰를 확인한다’고 답했습니다.
+
 <출처:https://www.mobiinside.co.kr/2020/01/17/servicereview-review>
 
 # 데이터 소개
