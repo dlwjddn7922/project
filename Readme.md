@@ -79,7 +79,7 @@
 
 # 긍부정 분석
 
-<img src="[https://user-images.githubusercontent.com/79899654/235823664-23cd95ea-5b68-46bd-bb2f-cc0521772039.PNG](https://user-images.githubusercontent.com/79899654/235824184-984f1fbe-3ed4-455b-8239-02aeea32fbb1.PNG)"></a>
+<img src="https://user-images.githubusercontent.com/79899654/235824184-984f1fbe-3ed4-455b-8239-02aeea32fbb1.PNG"></a>
 
 -평점 4-5점은 긍정 평점1-3점은 부정으로 분류해 분석해봄.
 
