@@ -73,11 +73,21 @@
 |https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5	|7/6/2016	|Best home made style ice cream. I stop by any time I am near Sidney and make special trips from my home 13 miles away from time to time.|
 |https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	7/6/2016	|"Definitely have to check out their facebook for the flavor of the week! We were there for coffee flavored and it was delicious. I have to go back to check out the lemon, as I have heard wonderful things about it. Definitely worth the drive if you're looking for something different than custard"|
 
+<img src="https://user-images.githubusercontent.com/79899654/235823416-87e92163-65fb-47e8-8730-343cfa7733a1.PNG"></a>
+
+-리뷰문장의 길이를 확인해봄.
+
 # 평점 데이터
 
 <img src="https://user-images.githubusercontent.com/79899654/235818585-7fc6c992-2f47-442a-b6c2-8929c70b9831.PNG"></a>
  
  -평점 5점이 50%이상이걸 알 수 있다.
+
+# 긍부정 분석
+
+<img src="https://user-images.githubusercontent.com/79899654/235823664-23cd95ea-5b68-46bd-bb2f-cc0521772039.PNG"></a>
+
+-평점 5점은 긍정 평점1~4점은 부정으로 분류해 분석해봄.
 
 # 결론
 리뷰의 중요성은 시간이 지날수록 높아지고 있고, 리뷰가 좋은 기업일 수록 가치가 높은 기업으로 나타났다.
