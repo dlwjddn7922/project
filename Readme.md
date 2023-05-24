@@ -63,6 +63,10 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 <img src="https://user-images.githubusercontent.com/79899654/235818585-7fc6c992-2f47-442a-b6c2-8929c70b9831.PNG"></a>
  
  -긍정적인 리뷰인  4-5점이 대다수를 차지하고 있음.
+ 
+ <img src="https://github.com/dlwjddn7922/project/assets/79899654/8a00ad79-ac33-4f54-8083-cdea8127f61f"></a>
+ 
+ -평점 4~5점은 긍정 1~3점은 부정으로 분류하여 파이차트로 나타냄
 
 <img src="https://user-images.githubusercontent.com/79899654/235823416-87e92163-65fb-47e8-8730-343cfa7733a1.PNG"></a>
 
