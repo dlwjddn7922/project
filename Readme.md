@@ -32,6 +32,8 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 평점을 관리하는 매장들이 많아지고있다. 미국기업 YELP를 통해 미국맛집들의 리뷰와 그에따른 기업의 평가를 확인하고, Keggle에서 제공하는 YELP APP 리뷰 데이터를 바탕으로
 리뷰의 긍정 또는 부정을 예측하는 인공지는 모델을 개발 하고자 한다.
 
+# 개발 환경
+
 # 데이터 소개
 
 - kaggle 사이트에서 business review 데이터에서 미국기업 yelp를 사용한 데이터를 사용하였다. (https://www.kaggle.com/code/sudhirnl7/basic-exploration-of-business-review-at-yelp-com#Review)
