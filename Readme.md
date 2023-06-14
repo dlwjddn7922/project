@@ -60,6 +60,8 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 |https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	8/7/2021	|A delicious treat on a hot day! Staff was very friendly and helpful-- gave us a sample and let us order a little earlier than open.|
 |https://www.yelp.com/biz/sidney-dairy-barn-sidney	|4|	7/28/2016|	"This was great service and a fun crew! I got the banana cream pie with chocolate ice cream. I loved the flavor of this. It had freshly cut bananas, graham crackers and chocolate ice cream. YUM!! The only thing that I noticed is that it melted pretty fast and it's a bit icy. I like creamier ice cream (so it had a bit more overrun that I prefer), but overall, was delicious!"|
 
+- 전체데이터는 19895개이고, 긍정(4-5점)은 15330개, 부정(1-2점)은 2497, 중립을 의미하는 3점은 2069개이다.
+
 
 # 리뷰데이터 가공
 
