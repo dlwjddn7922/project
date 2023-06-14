@@ -74,19 +74,30 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 |3|Nice little local place for ice cream.My favorite is their pumpkin shake ( Fall season special).( My Sweetness tolerance is low) Their LARGE SIZE ice cream usually seems too sweet after having ice cream for a while. But love their pina colada. So refreshing. Their Banana Split is good too.|4|
 |4| "This is one of my favorite places to get ice cream in the CU area. It's a bit of drive, but it is worth it. It's about 10 minutes from the far side of Urbana. Getting there is really easy. The atmosphere of the Dairy Barn is very kid friendly. There are many tables set up so that you can sit and enjoy the ice cream. When my friends and I went, the line was about a 20 minute wait, but it didn't seem like any time at all. An older gentlemen, I presume the manager or owner, was giving out samples to the entire line. You could tell that he took pride in the product he made and was excited to share it with everyone. The special that night was cappuccino ice cream. I added in cookie dough to make a ""tornado"" which is a blizzard like ice cream treat. It was so quite refreshing and was a nice treat on a humid night. The Dairy barn is a must go!"|5|
 |... | ... | ... |
-|19893|Delicious. We got a breakfast sandwich here and it was very good. Also I got some sort of lemon tart dessert that was also delicious.|3|
-|19894|	Great gelato and great milkshakes. Stopped here after Din Tai Fung closed so some dessert and it was the real deal. I ordered the Oreo milkshake but everyone I was with had the gelato and loved it.|4|
-|19895|"Its hard not to order everything when I come here because its so good. You can also order on Instacart for delivery. They always get my order correct which I appreciate"|5|
+|17826|I love this shop! I started buying pints from here last year prior to the scoop shop opening and I have never had a flavor I didn't love. I stopped by the shop today and the women working.|4|
+|17827|	Easily my favorite ice cream in Madison. I had enjoyed a mini waffle cone of the "They See Me Rollin'" flavor and it was too good! We also tried the orange pistachio chip (okay) and the "it's brownies b*tch" (really good). Definitely coming back for more.|4|
+|17828|We've been buying ice cream from Ice Cream Social (Katrina) for the last several months, and it's *easily the best ice cream in Madison.|5|
 
- -필요없는 데이터인 YELP URL, DATE 항목을 제거함
  -중립 데이터인 3점을 제거하여 17828개의 데이터만 남겼다.
  
-
+ # 긍부정 분석
  
- 
- 
+<img src="https://github.com/dlwjddn7922/project/assets/79899654/b2ab58e6-5703-4685-82fc-005aecc4893b">
 
+-긍부정 데이터 2000건만 추출하여 돌려본 결과 0.06 loss와 0.95 Accuracy가 나왔다.
 
+<img src="https://github.com/dlwjddn7922/project/assets/79899654/13e1fb28-bf90-4c25-9f09-9dd92b881a19">
+
+- 이와같이 loss가 계속 떨어지는걸 볼 수 있다.
+
+<img src="https://github.com/dlwjddn7922/project/assets/79899654/cc476ee1-317e-4528-a038-e082aad3e930">
+
+- Accuracy는 시간이 지날수록 증가하는 걸 볼 수 있다.
+
+<img src="https://github.com/dlwjddn7922/project/assets/79899654/95b61880-de58-4a50-a2c2-73db636a8283">
+
+-전체 데이터인 17828개를 넣어서 돌려본 결과 2000개 보단 낮은 0.86 Accuracy가 나왔다.
+ 
 # 결론
-리뷰의 중요성은 시간이 지날수록 높아지고 있다. 또한 대부분의 고객들은 긍정적인 리뷰를 남기고 있으며, 긍정적인 리뷰가 많은 매장일 수록 기업의 가치와 매출이 높다는걸 확인 할 수 있다.</br>
+대부분의 고객들은 긍정적인 리뷰를 남기고 있으며, 리뷰의 길이와는 관계없이 평점이 매겨지고있고 매장들이 리뷰의 영향을 많이 받는걸 알 수 있었다. 다음에 분석을 한다면 다른 주제로 더 많은 데이터와 다양한 관점으로 긍부정을 분석해 보고 싶다.</br>
 
