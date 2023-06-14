@@ -78,13 +78,13 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 |17827|	Easily my favorite ice cream in Madison. I had enjoyed a mini waffle cone of the "They See Me Rollin'" flavor and it was too good! We also tried the orange pistachio chip (okay) and the "it's brownies b*tch" (really good). Definitely coming back for more.|4|
 |17828|We've been buying ice cream from Ice Cream Social (Katrina) for the last several months, and it's *easily the best ice cream in Madison.|5|
 
- -중립 데이터인 3점을 제거하여 17828개의 데이터만 남겼다.
+ - 중립 데이터인 3점을 제거하여 17828개의 데이터만 남겼다.
  
  # 긍부정 분석
  
 <img src="https://github.com/dlwjddn7922/project/assets/79899654/b2ab58e6-5703-4685-82fc-005aecc4893b">
 
--긍부정 데이터 2000건만 추출하여 돌려본 결과 0.06 loss와 0.95 Accuracy가 나왔다.
+- 긍부정 데이터 2000건만 추출하여 돌려본 결과 0.06 loss와 0.95 Accuracy가 나왔다.
 
 <img src="https://github.com/dlwjddn7922/project/assets/79899654/13e1fb28-bf90-4c25-9f09-9dd92b881a19">
 
@@ -96,7 +96,7 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 
 <img src="https://github.com/dlwjddn7922/project/assets/79899654/95b61880-de58-4a50-a2c2-73db636a8283">
 
--전체 데이터인 17828개를 넣어서 돌려본 결과 2000개 보단 낮은 0.86 Accuracy가 나왔다.
+- 전체 데이터인 17828개를 넣어서 돌려본 결과 2000개 보단 낮은 0.86 Accuracy가 나왔다.
  
 # 배운점
 대부분의 고객들은 긍정적인 리뷰를 남기고 있으며, 리뷰의 길이와는 관계없이 평점이 매겨지고있고 매장들이 리뷰의 영향을 많이 받는걸 알 수 있었다. 이번 분석에는 데이터양과 평점과 문장길이라는 2가지 관점밖에서 분석을 할 수 있었어서 부족했던 것 같다. 다음에 분석을 한다면 다른 주제로 더 많은 데이터와 다양한 관점으로 긍부정을 분석해 보고 싶다.</br>
