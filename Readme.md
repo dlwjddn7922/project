@@ -60,27 +60,18 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 |https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	8/7/2021	|A delicious treat on a hot day! Staff was very friendly and helpful-- gave us a sample and let us order a little earlier than open.|
 |https://www.yelp.com/biz/sidney-dairy-barn-sidney	|4|	7/28/2016|	"This was great service and a fun crew! I got the banana cream pie with chocolate ice cream. I loved the flavor of this. It had freshly cut bananas, graham crackers and chocolate ice cream. YUM!! The only thing that I noticed is that it melted pretty fast and it's a bit icy. I like creamier ice cream (so it had a bit more overrun that I prefer), but overall, was delicious!"|
 |https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	6/23/2015|	"This is one of my favorite places to get ice cream in the CU area. It's a bit of drive, but it is worth it. It's about 10 minutes from the far side of Urbana. Getting there is really easy. The atmosphere of the Dairy Barn is very kid friendly. There are many tables set up so that you can sit and enjoy the ice cream. When my friends and I went, the line was about a 20 minute wait, but it didn't seem like any time at all. An older gentlemen, I presume the manager or owner, was giving out samples to the entire line. You could tell that he took pride in the product he made and was excited to share it with everyone. The special that night was cappuccino ice cream. I added in cookie dough to make a ""tornado"" which is a blizzard like ice cream treat. It was so quite refreshing and was a nice treat on a humid night. The Dairy barn is a must go!"|
-|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	5/1/2019	|"I've been coming to this ice cream stand since I was a little girl back in the 1970's. (Yes, it's been here for that long! Just not under the same ownership.) But not much has changed in those years in regards to their basic ice cream. It is a great family place! They are always accommodating when we want to tweak the menu item a bit :-) I love the rotating, special flavor of the week! Keep an eye on the Facebook page for that. It's always a joy to see the near constant long line. Shows how successful a small town business can be. If you are truly passionate about supporting small business, stay away from those franchises that make their ice cream at some corporate factory and come get some made fresh soft serve from your truly local business!!"|
-# 평점 데이터
 
-<img src="https://user-images.githubusercontent.com/79899654/235818585-7fc6c992-2f47-442a-b6c2-8929c70b9831.PNG"></a>
+# 리뷰데이터 가공
+|Review text|Rating|
+|---|---|
+|can say is they have very good ice cream I would for sure recommend their cookies and creme ice cream it is very good|5	|
+|A delicious treat on a hot day! Staff was very friendly and helpful-- gave us a sample and let us order a little earlier than open.|5|
+	Nice little local place for ice cream.My favorite is their pumpkin shake ( Fall season special).( My Sweetness tolerance is low) Their LARGE SIZE ice cream usually seems too sweet after having ice cream for a while. But love their pina colada. So refreshing. Their Banana Split is good too.|4|
+ "This is one of my favorite places to get ice cream in the CU area. It's a bit of drive, but it is worth it. It's about 10 minutes from the far side of Urbana. Getting there is really easy. The atmosphere of the Dairy Barn is very kid friendly. There are many tables set up so that you can sit and enjoy the ice cream. When my friends and I went, the line was about a 20 minute wait, but it didn't seem like any time at all. An older gentlemen, I presume the manager or owner, was giving out samples to the entire line. You could tell that he took pride in the product he made and was excited to share it with everyone. The special that night was cappuccino ice cream. I added in cookie dough to make a ""tornado"" which is a blizzard like ice cream treat. It was so quite refreshing and was a nice treat on a humid night. The Dairy barn is a must go!"|5|
+ -필요없는 데이터인 YELP URL, DATE 항목을 제거함
  
- -긍정적인 리뷰인  4-5점이 대다수를 차지하고 있음.
-
-<img src="https://user-images.githubusercontent.com/79899654/235823416-87e92163-65fb-47e8-8730-343cfa7733a1.PNG"></a>
-
--리뷰문장이 길다해서 긍정적이고 문장이 짧다고 해서 부정적인 리뷰라고는 말 할 수 없음.
-
-# 긍부정 분석
-
-<img src="https://user-images.githubusercontent.com/79899654/235824184-984f1fbe-3ed4-455b-8239-02aeea32fbb1.PNG"></a>
-
--평점 4-5점은 긍정 평점1-3점은 부정으로 분류해 분석해봄.
-
- <img src="https://github.com/dlwjddn7922/project/assets/79899654/8a00ad79-ac33-4f54-8083-cdea8127f61f"></a>
  
--평점 4-5점은 긍정 1-3점은 부정으로 분류하여 파이차트로 나타냄
-
+ 
 
 
 # 결론
