@@ -2,6 +2,13 @@
 <img src="https://user-images.githubusercontent.com/79899654/235819020-81b04e26-ff94-406e-b28d-7c73336e0db3.png"></a>
 
 #  YELP 맛집 리뷰
+<img src="https://img.shields.io/badge/tensorflow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/matplotlib-3776AB?style=flat-square&logo=matplotlib&logoColor=white"/>
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/numpy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/torch-EE4C2C?style=flat-square&logo=torch&logoColor=white"/>
+<img src="https://img.shields.io/badge/transformers-409FFF?style=flat-square&logo=transformers&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit-learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
 </div>
 
 # YELP 란?
@@ -37,51 +44,44 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 - kaggle 사이트에서 business review 데이터에서 미국기업 yelp를 사용한 데이터를 사용하였다. (https://www.kaggle.com/code/sudhirnl7/basic-exploration-of-business-review-at-yelp-com#Review)
 - kaggle 사이트에서 Yelp Restaurant Reviews 데이터를 사용하였다 (https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews)
 
-# 데이터
-<img src="https://www.kaggleusercontent.com/kf/2594553/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..gp4FvRrugxdz-OahmDcbgA.WxX51E0OnVK7udFMbQNDKnaPMWtok5_YREg_MJ6koxjf1YMXBwuflT0CxHka7pPgUlrDBpuaCRPlqckmkX33gpEAHGLbntBxztyRc7Da94azy4RAt-lXZrHeuYxNq5ejRvBruBbvvagL7VjBxQgCmZnQFWx1NyyF49VIHV14YI7s0YanYvsnIkRdiLSzM3GZI42AgBHyvgWt562TXb7l478rCMg-CeVC9oMDf2gj3rY1OGX3s6R1um4tFAFnKHVQ4cDx74UBtkziumKDBWa9ax49uARWez0a-eXjyNtPf18HRK25weonO-cO5Z6RbNt3tTryCG10YaQtgzN3OtD5uQdr3fFpVotQB7qmUjU3wl9CdaWVhIgcEi45HI2quXeWUMtaauwpilX0Z3Dr2mPUV2fyKZpbdHxOOM2rhSPkQGqSd9zA8QmVOpO4jXiFGJhu23po3LakBfCMdTQFyr66eTIjtjW0u_d0hkfpcRR5sFts4d2ibOa3BUZGidw-RKPbx8EgP-EIJIQkL3WU8uvlMI5qEfkBX9GYrMguCbjFlZv9lwJDYZovW9pPPr4U1_x47Lu_U86uoYRpoAuT2zPnmsIezSyBMFBvaJSOWeqE0UP5SCGzHzCNi-LZVG8RDEiJjVhs3q-0CJLgurQwsGFvDVxLzgMBKI52A9CrTxYT0WhsTaNwjFVom-s_ppDBFdXabdilQiZZlfSJ7hf5Wis2NQ.0rnRMB18uhU2QbsHQhlY8g/__results___files/__results___11_1.png"></a>
-- 우리가 흔히 아는 기업일 수록 평가가 많다는걸 알 수 있다.
-
-<img src="https://www.kaggleusercontent.com/kf/2594553/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..gp4FvRrugxdz-OahmDcbgA.WxX51E0OnVK7udFMbQNDKnaPMWtok5_YREg_MJ6koxjf1YMXBwuflT0CxHka7pPgUlrDBpuaCRPlqckmkX33gpEAHGLbntBxztyRc7Da94azy4RAt-lXZrHeuYxNq5ejRvBruBbvvagL7VjBxQgCmZnQFWx1NyyF49VIHV14YI7s0YanYvsnIkRdiLSzM3GZI42AgBHyvgWt562TXb7l478rCMg-CeVC9oMDf2gj3rY1OGX3s6R1um4tFAFnKHVQ4cDx74UBtkziumKDBWa9ax49uARWez0a-eXjyNtPf18HRK25weonO-cO5Z6RbNt3tTryCG10YaQtgzN3OtD5uQdr3fFpVotQB7qmUjU3wl9CdaWVhIgcEi45HI2quXeWUMtaauwpilX0Z3Dr2mPUV2fyKZpbdHxOOM2rhSPkQGqSd9zA8QmVOpO4jXiFGJhu23po3LakBfCMdTQFyr66eTIjtjW0u_d0hkfpcRR5sFts4d2ibOa3BUZGidw-RKPbx8EgP-EIJIQkL3WU8uvlMI5qEfkBX9GYrMguCbjFlZv9lwJDYZovW9pPPr4U1_x47Lu_U86uoYRpoAuT2zPnmsIezSyBMFBvaJSOWeqE0UP5SCGzHzCNi-LZVG8RDEiJjVhs3q-0CJLgurQwsGFvDVxLzgMBKI52A9CrTxYT0WhsTaNwjFVom-s_ppDBFdXabdilQiZZlfSJ7hf5Wis2NQ.0rnRMB18uhU2QbsHQhlY8g/__results___files/__results___53_1.png"></a>
-- 시간이 지날수록 리뷰를 작성하는 사람이 많아지고 리뷰의 중요성이 높아지고있다.
-
 # 리뷰 데이터
 
 |Yelp URL|Rating|Date|Review text|
 |---|---|---|---|
 |레스토랑 주소URL|평점|날짜|리뷰 글|
 
-|Yelp URL|Rating|Date|Review text|
-|---|---|---|---|
-|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5	|1/22/2022	All I |can say is they have very good ice cream I would for sure recommend their cookies and creme ice cream it is very good|
-|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|4|	6/26/2022|	Nice little local place for ice cream.My favorite is their pumpkin shake ( Fall season special).( My Sweetness tolerance is low) Their LARGE SIZE ice cream usually seems too sweet after having ice cream for a while. But love their pina colada. So refreshing. Their Banana Split is good too.|
-|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	8/7/2021	|A delicious treat on a hot day! Staff was very friendly and helpful-- gave us a sample and let us order a little earlier than open.|
-|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|4|	7/28/2016|	"This was great service and a fun crew! I got the banana cream pie with chocolate ice cream. I loved the flavor of this. It had freshly cut bananas, graham crackers and chocolate ice cream. YUM!! The only thing that I noticed is that it melted pretty fast and it's a bit icy. I like creamier ice cream (so it had a bit more overrun that I prefer), but overall, was delicious!"|
+|Index|Yelp URL|Rating|Date|Review text|
+|---|---|---|---|---|
+|1|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5	|1/22/2022	All I |can say is they have very good ice cream I would for sure recommend their cookies and creme ice cream it is very good|
+|2|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|4|	6/26/2022|	Nice little local place for ice cream.My favorite is their pumpkin shake ( Fall season special).( My Sweetness tolerance is low) Their LARGE SIZE ice cream usually seems too sweet after having ice cream for a while. But love their pina colada. So refreshing. Their Banana Split is good too.|
+|3|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	8/7/2021	|A delicious treat on a hot day! Staff was very friendly and helpful-- gave us a sample and let us order a little earlier than open.|
+|4|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|4|	7/28/2016|	"This was great service and a fun crew! I got the banana cream pie with chocolate ice cream. I loved the flavor of this. It had freshly cut bananas, graham crackers and chocolate ice cream. YUM!! The only thing that I noticed is that it melted pretty fast and it's a bit icy. I like creamier ice cream (so it had a bit more overrun that I prefer), but overall, was delicious!"|
+|... | ... | ... | ... |... |
+|19893|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|3	|1/22/2022	All I |Delicious. We got a breakfast sandwich here and it was very good. Also I got some sort of lemon tart dessert that was also delicious.|
+|19894|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|4|	9/3/2019|	Great gelato and great milkshakes. Stopped here after Din Tai Fung closed so some dessert and it was the real deal. I ordered the Oreo milkshake but everyone I was with had the gelato and loved it.|
+|19895|https://www.yelp.com/biz/sidney-dairy-barn-sidney	|5|	8/7/2021	|"Its hard not to order everything when I come here because its so good. You can also order on Instacart for delivery. They always get my order correct which I appreciate"|
+
 
 - 전체데이터는 19895개이고, 긍정(4-5점)은 15330개, 부정(1-2점)은 2497, 중립을 의미하는 3점은 2069개이다.
 
 
 # 리뷰데이터 가공
 
-|Review text|Rating|
-|---|---|
-|can say is they have very good ice cream I would for sure recommend their cookies and creme ice cream it is very good|5|
-|A delicious treat on a hot day! Staff was very friendly and helpful-- gave us a sample and let us order a little earlier than open.|5|
-|Nice little local place for ice cream.My favorite is their pumpkin shake ( Fall season special).( My Sweetness tolerance is low) Their LARGE SIZE ice cream usually seems too sweet after having ice cream for a while. But love their pina colada. So refreshing. Their Banana Split is good too.|4|
-| "This is one of my favorite places to get ice cream in the CU area. It's a bit of drive, but it is worth it. It's about 10 minutes from the far side of Urbana. Getting there is really easy. The atmosphere of the Dairy Barn is very kid friendly. There are many tables set up so that you can sit and enjoy the ice cream. When my friends and I went, the line was about a 20 minute wait, but it didn't seem like any time at all. An older gentlemen, I presume the manager or owner, was giving out samples to the entire line. You could tell that he took pride in the product he made and was excited to share it with everyone. The special that night was cappuccino ice cream. I added in cookie dough to make a ""tornado"" which is a blizzard like ice cream treat. It was so quite refreshing and was a nice treat on a humid night. The Dairy barn is a must go!"|5|
- 
+|Index|Review text|Rating|
+|---|---|---|
+|1|can say is they have very good ice cream I would for sure recommend their cookies and creme ice cream it is very good|5|
+|2|A delicious treat on a hot day! Staff was very friendly and helpful-- gave us a sample and let us order a little earlier than open.|5|
+|3|Nice little local place for ice cream.My favorite is their pumpkin shake ( Fall season special).( My Sweetness tolerance is low) Their LARGE SIZE ice cream usually seems too sweet after having ice cream for a while. But love their pina colada. So refreshing. Their Banana Split is good too.|4|
+|4| "This is one of my favorite places to get ice cream in the CU area. It's a bit of drive, but it is worth it. It's about 10 minutes from the far side of Urbana. Getting there is really easy. The atmosphere of the Dairy Barn is very kid friendly. There are many tables set up so that you can sit and enjoy the ice cream. When my friends and I went, the line was about a 20 minute wait, but it didn't seem like any time at all. An older gentlemen, I presume the manager or owner, was giving out samples to the entire line. You could tell that he took pride in the product he made and was excited to share it with everyone. The special that night was cappuccino ice cream. I added in cookie dough to make a ""tornado"" which is a blizzard like ice cream treat. It was so quite refreshing and was a nice treat on a humid night. The Dairy barn is a must go!"|5|
+|... | ... | ... |
+|19893|Delicious. We got a breakfast sandwich here and it was very good. Also I got some sort of lemon tart dessert that was also delicious.|3|
+|19894|	Great gelato and great milkshakes. Stopped here after Din Tai Fung closed so some dessert and it was the real deal. I ordered the Oreo milkshake but everyone I was with had the gelato and loved it.|4|
+|19895|"Its hard not to order everything when I come here because its so good. You can also order on Instacart for delivery. They always get my order correct which I appreciate"|5|
+
  -필요없는 데이터인 YELP URL, DATE 항목을 제거함
+ -중립 데이터인 3점을 제거하여 17828개의 데이터만 남겼다.
  
- <img src="https://github.com/dlwjddn7922/project/assets/79899654/93718058-4145-4a04-b14c-dbcc5ce71589">
- 
- -초기 데이터에 평점 4-5점을 긍정 1-2점을 부정으로 분류하고 평점 3점은 중립으로 판단하여 제거함.
- 
- <img src="https://github.com/dlwjddn7922/project/assets/79899654/9785ba57-d9da-48d2-b1ae-8e4b399daec9">
- 
- -평점 4-5긍정은 label 1로 변경
- 
- <img src="https://github.com/dlwjddn7922/project/assets/79899654/e64f8f4f-e89c-43da-b61c-9a231e93fb95">
- 
- -평점 1-2부정은 label 0으로 변경
+
  
  
  
