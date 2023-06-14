@@ -33,6 +33,7 @@ YELP 외에도 많은 리뷰사이트가  존재하는데 리뷰 사이트 이�
 리뷰의 긍정 또는 부정을 예측하는 인공지는 모델을 개발 하고자 한다.
 
 # 개발 환경
+<img src="https://github.com/dlwjddn7922/project/assets/79899654/a64eecae-3caa-4f66-ae2b-e802c83dd416">
 
 # 데이터 소개
 
